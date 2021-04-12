@@ -1,0 +1,26 @@
+{
+  "name": "expressmongoosetodoapp",
+  "version": "1.0.0",
+  "description": "Simple ToDo App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k4st01C/ExpressMongooseToDoApp.git"
+  },
+  "keywords": [
+    "Express",
+    "Mongoose"
+  ],
+  "author": "Kemal Aydık",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k4st01C/ExpressMongooseToDoApp/issues"
+  },
+  "homepage": "https://github.com/k4st01C/ExpressMongooseToDoApp#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
+}
