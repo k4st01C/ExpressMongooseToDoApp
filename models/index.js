@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.set('debug', true);
-mongoose.connect('mongodb://127.0.0.1:27017/todo', {
+mongoose.connect("mongodb+srv://kemalaydik:qivQZXSCP5aufm2M@cluster0.zdlp6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 });
