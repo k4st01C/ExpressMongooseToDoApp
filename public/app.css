@@ -1,17 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 * {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+html {
+    font: size 16px;
+    
 }
 
 
+h1 {
+    font-size: 3em;
+}
 span {
-    color: blue;
     font-style: bold;
     font-weight: 900;
+    color: #444;
 }
 
 body {
@@ -32,5 +40,34 @@ input {
     border: none;
     outline: none;
     font-size: 1rem;
+    padding-bottom: 10px;
     
+}
+
+li {
+    text-align: left;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    transition: all .3s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover {
+    background-color: #eee;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #bbb;
+}
+
+.delete {
+    color: right;
+    opacity: 0;
+}
+
+li:hover span {
+    opacity: 1;
 }
