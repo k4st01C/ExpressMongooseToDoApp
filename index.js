@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const todoRoutes=require('./routes/todos.js')
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(express.urlencoded());
@@ -15,4 +16,4 @@ app.get('/',(req,res)=>{
 
 
 
-app.listen('3000', () => console.log('starting...'));
+app.listen(PORT, () => console.log('starting...'));
